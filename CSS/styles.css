@@ -1,0 +1,23 @@
+/* Estilos generales */
+body {
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #ffeb3b;
+}
+
+
+p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    text-align: justify;
+    color: #f1f1f1;
+}
