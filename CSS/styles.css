@@ -21,3 +21,26 @@ p {
     text-align: justify;
     color: #f1f1f1;
 }
+#encabezado {
+    background-color: #b6c0ee;
+    min-height: 100px;
+    height: auto;    
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 5px 10px rgba(32, 32, 32, 0.2) ;
+}
+
+#encabezado .encabezado1{
+    color: antiquewhite;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#encabezado .encabezado2{
+    color: beige;
+
+}
+#encabezado .encabezado3{
+    color: blanchedalmond;
+}
