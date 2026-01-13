@@ -1,99 +1,198 @@
-/* Estilos generales */
+
 body {
-    background: linear-gradient(135deg, #667eea, #764ba2);
+    background-color: #f4fbf7;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
-    color: #ffffff;
+    color: #2e4d3b;
 }
 
 h1 {
     text-align: center;
     font-size: 2.5rem;
     margin-bottom: 20px;
-    color: #ffeb3b;
+    color: #2f7d57;
 }
-
 
 p {
     font-size: 1.1rem;
     line-height: 1.8;
     text-align: justify;
-    color: #f1f1f1;
+    color: #3f5f4f;
 }
+
+/* ===== Encabezado ===== */
 #encabezado {
-    background-color: #b6c0ee;
-    height: 60px;    
+    background-color: #a8dbc1;
+    height: 70px;
     width: 100%;
-    margin: 0 auto;
-    padding: 10px;
+    padding: 0 20px;
     display: flex;
-    justify-content: center;
     align-items: center;
-    gap: 20px;
+    justify-content: space-between;
 }
 
-.logo{
-    width: 10%;
-    height: 100%;
-    background-color: aqua;
+
+.logo {
+    width: 15%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.logo img{
-    width: 100px;
+.logo img {
+    width: 80px;
 }
-.menu{
-    width: 80%;
-    height: 100%;
-    background-color: rgb(55, 22, 117);
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
+/* Menú */
+.menu {
+    width: 70%;
 }
-.menu ul{
+
+.menu ul {
     list-style: none;
     margin: 0;
     padding: 0;
-    background-color: rgb(26, 186, 169); 
-}
-
-.menu ul li{
-    float: left;
-    color: rgb(11, 202, 195);
-    text-align: center;
-    padding: 14px 20px;
-    text-decoration: none;
-}
-
-.menu ul li a:hover{
-    color: #ffffff;
-    background-color: rgb(11, 202, 195);
-}
-
-.redes{
-    width: 10%;
-    height: 100%;
-    background-color: rgb(111, 196, 132);
     display: flex;
     justify-content: center;
-    align-items: center;
+    gap: 20px;
 }
+
+.menu ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #2f7d57;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.menu ul li a:hover {
+    background-color: #256a49;
+}
+
+/* Redes sociales */
+.redes {
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
 .redes img {
-    width: 40px;
+    width: 32px;
+    cursor: pointer;
+    filter: brightness(0.9);
 }
 
-#encabezado .encabezado1{
-    color: antiquewhite;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+
+#rectangulo {
+    background-color: #dff2e7;
+    min-height: 450px;
+    width: 70%;
+    margin: 20px auto;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
 }
 
-#encabezado .encabezado2{
-    color: beige;
 
+.cuadro1 {
+    background-color: #ffffff;
+    width: 250px;
+    height: 350px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(47, 125, 87, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
 }
-#encabezado .encabezado3{
-    color: blanchedalmond;
+
+.cuadro1 img{
+    width: 250px;
 }
+
+.cuadro1 h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.cuadro1 p{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.cuadro2 {
+    background-color: #ffffff;
+    width: 250px;
+    height: 350px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(47, 125, 87, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.cuadro2 img{
+    width: 250px;
+}
+
+.cuadro2 h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.cuadro2 p{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.cuadro3 {
+    background-color: #ffffff;
+    width: 250px;
+    height: 350px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(47, 125, 87, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.cuadro3 img{
+    width: 250px;
+}
+
+.cuadro3 h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.cuadro3 p{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.cuadro4 {
+    background-color: #ffffff;
+    width: 250px;
+    height: 350px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(47, 125, 87, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.cuadro4 img{
+    width: 250px;
+}
+
+.cuadro4 h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.cuadro4 p{
+    font-family: 'Times New Roman', Times, serif;
